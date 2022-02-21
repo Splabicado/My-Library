@@ -1,0 +1,34 @@
+public char charToUpper(char ltr)
+{
+  char result = '~';
+  switch (ltr)
+  {
+    case 'a': result = 'A'; break;
+    case 'b': result = 'B'; break;
+    case 'c': result = 'C'; break;
+    case 'd': result = 'D'; break;
+    case 'e': result = 'E'; break;
+    case 'f': result = 'F'; break;
+    case 'g': result = 'G'; break;
+    case 'h': result = 'H'; break;
+    case 'i': result = 'I'; break;
+    case 'j': result = 'J'; break;
+    case 'k': result = 'K'; break;
+    case 'l': result = 'L'; break;
+    case 'm': result = 'M'; break;
+    case 'n': result = 'N'; break;
+    case 'o': result = 'O'; break;
+    case 'p': result = 'P'; break;
+    case 'q': result = 'Q'; break;
+    case 'r': result = 'R'; break;
+    case 's': result = 'S'; break;
+    case 't': result = 'T'; break;
+    case 'u': result = 'U'; break;
+    case 'v': result = 'V'; break;
+    case 'w': result = 'W'; break;
+    case 'x': result = 'X'; break;
+    case 'y': result = 'Y'; break;
+    case 'z': result = 'Z'; break;
+  }
+  return result;
+}
